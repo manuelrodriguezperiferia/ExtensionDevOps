@@ -1,7 +1,7 @@
 {
   "name": "chatbotaidevops",
   "displayName": "ChatbotAIDevOps",
-  "description": "extension -------------- para DevOps",
+  "description": "Extension Chatbot OpenAI del area de DevOps [Periferia]",
   "publisher": "ChatbotAIDevops",
   "version": "0.0.1",
   "engines": {
