@@ -1,0 +1,186 @@
+[33mcommit 14c7724f7e7f82c3ac45ab25a39c52b8b67ef334[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: manuelrodriguezperiferia <manuelrodriguez@periferia-it.com>
+Date:   Tue May 28 12:22:22 2024 -0500
+
+    1222
+
+ README.md    | 7 [32m+++[m[31m----[m
+ package.json | 4 [32m++++[m
+ 2 files changed, 7 insertions(+), 4 deletions(-)
+
+[33mcommit da252cb1ffbf57a7675eda0bba86392a16aae087[m
+Author: manuelrodriguezperiferia <manuelrodriguez@periferia-it.com>
+Date:   Tue May 28 10:56:03 2024 -0500
+
+    1056
+
+ .gitignore    | 1 [32m+[m
+ jsconfig.json | 4 [32m+[m[31m---[m
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+
+[33mcommit af9b30225342e812e92a433192261daae9dc7e26[m
+Author: manuelrodriguezperiferia <manuelrodriguez@periferia-it.com>
+Date:   Tue May 28 10:52:53 2024 -0500
+
+    1052
+
+ .gitignore | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+
+[33mcommit f6939b04fd8c9baef2e5229f4eebadcff4561fe4[m
+Author: manuelrodriguezperiferia <manuelrodriguez@periferia-it.com>
+Date:   Tue May 28 10:44:52 2024 -0500
+
+    1044
+
+ .gitignore | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+
+[33mcommit a488c96ff0526222a6d2f3b41dfa8e1b46fc1e9c[m
+Author: manuelrodriguezperiferia <manuelrodriguez@periferia-it.com>
+Date:   Tue May 28 10:38:31 2024 -0500
+
+    1038
+
+ .gitignore                                         |      3 [31m-[m
+ .vscode-test/extensions/extensions.json            |      1 [32m+[m
+ .vscode-test/user-data/Cache/Cache_Data/data_0     |    Bin [31m0[m -> [32m45056[m bytes
+ .vscode-test/user-data/Cache/Cache_Data/data_1     |    Bin [31m0[m -> [32m270336[m bytes
+ .vscode-test/user-data/Cache/Cache_Data/data_2     |    Bin [31m0[m -> [32m8192[m bytes
+ .vscode-test/user-data/Cache/Cache_Data/data_3     |    Bin [31m0[m -> [32m4202496[m bytes
+ .vscode-test/user-data/Cache/Cache_Data/f_000001   |    Bin [31m0[m -> [32m451968[m bytes
+ .vscode-test/user-data/Cache/Cache_Data/f_000002   |   1512 [32m+[m
+ .vscode-test/user-data/Cache/Cache_Data/index      |    Bin [31m0[m -> [32m524656[m bytes
+ .../chrome/js/117cbffcb58e04a2_0                   |    Bin [31m0[m -> [32m422[m bytes
+ .../chrome/js/762857791a092fe9_0                   |    Bin [31m0[m -> [32m2246816[m bytes
+ .../chrome/js/93ae007c965abe5b_0                   |    Bin [31m0[m -> [32m417[m bytes
+ .../chrome/js/9cd93c6dd1d5e6fe_0                   |    Bin [31m0[m -> [32m745272[m bytes
+ .../chrome/js/ddaa952907394d33_0                   |    Bin [31m0[m -> [32m413[m bytes
+ .../chrome/js/f769fb0474d33782_0                   |    Bin [31m0[m -> [32m59128[m bytes
+ .../chrome/js/index                                |    Bin [31m0[m -> [32m24[m bytes
+ .../chrome/js/index-dir/the-real-index             |    Bin [31m0[m -> [32m192[m bytes
+ .../chrome/wasm/index                              |    Bin [31m0[m -> [32m24[m bytes
+ .../chrome/wasm/index-dir/the-real-index           |    Bin [31m0[m -> [32m48[m bytes
+ .../__default__profile__/extensions.builtin.cache  |      1 [32m+[m
+ .../__default__profile__/extensions.user.cache     |      1 [32m+[m
+ .vscode-test/user-data/Code Cache/js/index         |    Bin [31m0[m -> [32m24[m bytes
+ .../Code Cache/js/index-dir/the-real-index         |    Bin [31m0[m -> [32m48[m bytes
+ .vscode-test/user-data/Code Cache/wasm/index       |    Bin [31m0[m -> [32m24[m bytes
+ .../Code Cache/wasm/index-dir/the-real-index       |    Bin [31m0[m -> [32m48[m bytes
+ .vscode-test/user-data/Crashpad/metadata           |      0
+ .vscode-test/user-data/Crashpad/settings.dat       |    Bin [31m0[m -> [32m40[m bytes
+ .vscode-test/user-data/DawnCache/data_0            |    Bin [31m0[m -> [32m8192[m bytes
+ .vscode-test/user-data/DawnCache/data_1            |    Bin [31m0[m -> [32m270336[m bytes
+ .vscode-test/user-data/DawnCache/data_2            |    Bin [31m0[m -> [32m8192[m bytes
+ .vscode-test/user-data/DawnCache/data_3            |    Bin [31m0[m -> [32m8192[m bytes
+ .vscode-test/user-data/DawnCache/index             |    Bin [31m0[m -> [32m262512[m bytes
+ .../user-data/Dictionaries/en-US-10-1.bdic         |    Bin [31m0[m -> [32m451968[m bytes
+ .vscode-test/user-data/GPUCache/data_0             |    Bin [31m0[m -> [32m45056[m bytes
+ .vscode-test/user-data/GPUCache/data_1             |    Bin [31m0[m -> [32m270336[m bytes
+ .vscode-test/user-data/GPUCache/data_2             |    Bin [31m0[m -> [32m1056768[m bytes
+ .vscode-test/user-data/GPUCache/data_3             |    Bin [31m0[m -> [32m4202496[m bytes
+ .vscode-test/user-data/GPUCache/index              |    Bin [31m0[m -> [32m262512[m bytes
+ .vscode-test/user-data/Local State                 |      1 [32m+[m
+ .../user-data/Local Storage/leveldb/000003.log     |      0
+ .../user-data/Local Storage/leveldb/CURRENT        |      1 [32m+[m
+ .vscode-test/user-data/Local Storage/leveldb/LOCK  |      0
+ .vscode-test/user-data/Local Storage/leveldb/LOG   |      2 [32m+[m
+ .../Local Storage/leveldb/MANIFEST-000001          |    Bin [31m0[m -> [32m41[m bytes
+ .vscode-test/user-data/Network/Cookies             |    Bin [31m0[m -> [32m20480[m bytes
+ .vscode-test/user-data/Network/Cookies-journal     |      0
+ .../user-data/Network/Network Persistent State     |      1 [32m+[m
+ .vscode-test/user-data/Network/NetworkDataMigrated |      0
+ .vscode-test/user-data/Network/Trust Tokens        |    Bin [31m0[m -> [32m36864[m bytes
+ .../user-data/Network/Trust Tokens-journal         |      0
+ .vscode-test/user-data/Preferences                 |      1 [32m+[m
+ .vscode-test/user-data/Session Storage/000003.log  |      0
+ .vscode-test/user-data/Session Storage/CURRENT     |      1 [32m+[m
+ .vscode-test/user-data/Session Storage/LOCK        |      0
+ .vscode-test/user-data/Session Storage/LOG         |      2 [32m+[m
+ .../user-data/Session Storage/MANIFEST-000001      |    Bin [31m0[m -> [32m41[m bytes
+ .../user-data/Shared Dictionary/cache/index        |    Bin [31m0[m -> [32m24[m bytes
+ .../cache/index-dir/the-real-index                 |    Bin [31m0[m -> [32m48[m bytes
+ .vscode-test/user-data/Shared Dictionary/db        |    Bin [31m0[m -> [32m45056[m bytes
+ .../user-data/Shared Dictionary/db-journal         |      0
+ .../user-data/User/globalStorage/storage.json      |     32 [32m+[m
+ .vscode-test/user-data/languagepacks.json          |      1 [32m+[m
+ .../logs/20240522T160516/editSessions.log          |      1 [32m+[m
+ .../user-data/logs/20240522T160516/main.log        |      5 [32m+[m
+ .../user-data/logs/20240522T160516/network.log     |      0
+ .../logs/20240522T160516/remoteTunnelService.log   |      1 [32m+[m
+ .../logs/20240522T160516/sharedprocess.log         |      0
+ .../user-data/logs/20240522T160516/telemetry.log   |      2 [32m+[m
+ .../user-data/logs/20240522T160516/terminal.log    |      0
+ .../logs/20240522T160516/userDataSync.log          |      2 [32m+[m
+ .../window1/exthost/extensionTelemetry.log         |      2 [32m+[m
+ .../20240522T160516/window1/exthost/exthost.log    |     11 [32m+[m
+ .../window1/exthost/vscode.git/Git.log             |      6 [32m+[m
+ .../window1/exthost/vscode.github/GitHub.log       |      1 [32m+[m
+ .../logs/20240522T160516/window1/network.log       |      0
+ .../20240522T160516/window1/notebook.rendering.log |      0
+ .../window1/output_20240522T160519/tasks.log       |      0
+ .../logs/20240522T160516/window1/renderer.log      |      8 [32m+[m
+ .../logs/20240522T160516/window1/views.log         |     13 [32m+[m
+ .vscode-test/user-data/machineid                   |      1 [32m+[m
+ .../Code.VisualElementsManifest.xml                |      9 [32m+[m
+ .../vscode-win32-x64-archive-1.89.1/Code.exe       |    Bin [31m0[m -> [32m167826880[m bytes
+ .../LICENSES.chromium.html                         | 162097 [32m+++++++++++++++[m
+ .../vscode-win32-x64-archive-1.89.1/bin/code       |     62 [32m+[m
+ .../bin/code-tunnel.exe                            |    Bin [31m0[m -> [32m19346880[m bytes
+ .../vscode-win32-x64-archive-1.89.1/bin/code.cmd   |      7 [32m+[m
+ .../chrome_100_percent.pak                         |    Bin [31m0[m -> [32m167733[m bytes
+ .../chrome_200_percent.pak                         |    Bin [31m0[m -> [32m227823[m bytes
+ .../d3dcompiler_47.dll                             |    Bin [31m0[m -> [32m4926920[m bytes
+ .../vscode-win32-x64-archive-1.89.1/ffmpeg.dll     |    Bin [31m0[m -> [32m2555912[m bytes
+ .../vscode-win32-x64-archive-1.89.1/icudtl.dat     |    Bin [31m0[m -> [32m10717392[m bytes
+ .../vscode-win32-x64-archive-1.89.1/is-complete    |      0
+ .../vscode-win32-x64-archive-1.89.1/libEGL.dll     |    Bin [31m0[m -> [32m498696[m bytes
+ .../vscode-win32-x64-archive-1.89.1/libGLESv2.dll  |    Bin [31m0[m -> [32m7829000[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/af.pak |    Bin [31m0[m -> [32m469259[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/am.pak |    Bin [31m0[m -> [32m764421[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/ar.pak |    Bin [31m0[m -> [32m838861[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/bg.pak |    Bin [31m0[m -> [32m871266[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/bn.pak |    Bin [31m0[m -> [32m1124462[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/ca.pak |    Bin [31m0[m -> [32m528823[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/cs.pak |    Bin [31m0[m -> [32m544313[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/da.pak |    Bin [31m0[m -> [32m492163[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/de.pak |    Bin [31m0[m -> [32m526757[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/el.pak |    Bin [31m0[m -> [32m955656[m bytes
+ .../locales/en-GB.pak                              |    Bin [31m0[m -> [32m427852[m bytes
+ .../locales/en-US.pak                              |    Bin [31m0[m -> [32m431998[m bytes
+ .../locales/es-419.pak                             |    Bin [31m0[m -> [32m519857[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/es.pak |    Bin [31m0[m -> [32m520687[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/et.pak |    Bin [31m0[m -> [32m472091[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/fa.pak |    Bin [31m0[m -> [32m775977[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/fi.pak |    Bin [31m0[m -> [32m481717[m bytes
+ .../locales/fil.pak                                |    Bin [31m0[m -> [32m546788[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/fr.pak |    Bin [31m0[m -> [32m564378[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/gu.pak |    Bin [31m0[m -> [32m1104434[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/he.pak |    Bin [31m0[m -> [32m679134[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/hi.pak |    Bin [31m0[m -> [32m1161555[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/hr.pak |    Bin [31m0[m -> [32m526404[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/hu.pak |    Bin [31m0[m -> [32m566608[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/id.pak |    Bin [31m0[m -> [32m466013[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/it.pak |    Bin [31m0[m -> [32m514315[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/ja.pak |    Bin [31m0[m -> [32m629190[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/kn.pak |    Bin [31m0[m -> [32m1266525[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/ko.pak |    Bin [31m0[m -> [32m531563[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/lt.pak |    Bin [31m0[m -> [32m570502[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/lv.pak |    Bin [31m0[m -> [32m569495[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/ml.pak |    Bin [31m0[m -> [32m1317434[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/mr.pak |    Bin [31m0[m -> [32m1081180[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/ms.pak |    Bin [31m0[m -> [32m489536[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/nb.pak |    Bin [31m0[m -> [32m475217[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/nl.pak |    Bin [31m0[m -> [32m489216[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/pl.pak |    Bin [31m0[m -> [32m549007[m bytes
+ .../locales/pt-BR.pak                              |    Bin [31m0[m -> [32m515690[m bytes
+ .../locales/pt-PT.pak                              |    Bin [31m0[m -> [32m516960[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/ro.pak |    Bin [31m0[m -> [32m536332[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/ru.pak |    Bin [31m0[m -> [32m882225[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/sk.pak |    Bin [31m0[m -> [32m553125[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/sl.pak |    Bin [31m0[m -> [32m531596[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/sr.pak |    Bin [31m0[m -> [32m820811[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/sv.pak |    Bin [31m0[m -> [32m477239[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/sw.pak |    Bin [31m0[m -> [32m502067[m bytes
+ .../vscode-win32-x64-archive-1.89.1/locales/ta.pak |    Bin [31m0[m -> [32m1305372[m bytes
+ .../vscode-win32-x64
