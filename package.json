@@ -2,8 +2,8 @@
   "name": "chatbotaidevops",
   "displayName": "ChatbotAIDevOps",
   "description": "Extension Chatbot OpenAI del area de DevOps [Periferia]",
-  "publisher": "ChatDevOps",
-  "icon": "src/chat_logo.png",
+  "publisher": "Periferia IT",
+  "icon": "src/chat_small.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
@@ -12,10 +12,31 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand: chatbotaidevops.StartChat"
+    "onCommand: chatbotaidevops.StartChat",
+    "onView:chat-sidebar.views"
   ],
   "main": "./extension.js",
   "contributes": {
+    "viewsContainers": {
+			"activitybar": [
+				{
+					"id": "chat-sidebar",
+					"title": "Chatdevops",
+					"icon": "src/chat_small.svg"
+				}
+			]
+		},
+		"views": {
+			"chat-sidebar": [
+				{
+					"type": "webview",
+					"id": "chat-sidebar.view",
+					"name": "Chatdevops",
+					"icon": "src/chat_small.svg",
+					"contextualTitle": "Chatdevops"
+				}
+			]
+		},
     "chatParticipants": [{
       "id": "chatbotaidevops.Cat",
       "name": "cat",
