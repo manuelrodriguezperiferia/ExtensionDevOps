@@ -3,7 +3,7 @@
   "displayName": "ChatbotAIDevOps",
   "description": "Extension Chatbot OpenAI del area de DevOps [Periferia]",
   "publisher": "ChatDevOps",
-  "icon": "src/chat-_logo.png",
+  "icon": "src/chat_logo.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
