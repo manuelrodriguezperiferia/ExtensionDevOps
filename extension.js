@@ -10,9 +10,9 @@ function commentLine() {
 //
 function activate(context) {
 
-	console.log('Congratulations, your extension "chatbotaidevops" is now active!');
+	console.log('Congratulations, your extension "chatdevops" is now active!');
 
-	let StartChat = vscode.commands.registerCommand('chatbotaidevops.StartChat', async function () {
+	let StartChat = vscode.commands.registerCommand('chatdevops.StartChat', async function () {
 		vscode.window.showInformationMessage('wellcome to Devopschat!');
 		await vscode.commands.executeCommand("workbench.action.terminal.kill");
 		await vscode.commands.executeCommand("workbench.action.chat.open");
@@ -50,13 +50,13 @@ function activate(context) {
 
 	});
 
-	let Cat = vscode.commands.registerCommand('chatbotaidevops.Cat', function () {
+	let Cat = vscode.commands.registerCommand('chatdevops.Cat', function () {
 		vscode.window.showInformationMessage('Cat you!');
 		
 	});
 
 
-	let EndChat = vscode.commands.registerCommand('chatbotaidevops.EndChat', function () {
+	let EndChat = vscode.commands.registerCommand('chatdevops.EndChat', function () {
 		vscode.window.showInformationMessage('Devopschat, see you!');
 		
 	});

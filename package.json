@@ -1,8 +1,8 @@
 {
-  "name": "chatbotaidevops",
-  "displayName": "ChatbotAIDevOps",
+  "name": "chatdevops",
+  "displayName": "chatdevops",
   "description": "Extension Chatbot OpenAI del area de DevOps [Periferia]",
-  "publisher": "Periferia IT",
+  "publisher": "chatdevops",
   "icon": "src/chat_small.png",
   "version": "0.0.1",
   "engines": {
@@ -12,7 +12,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand: chatbotaidevops.StartChat",
+    "onCommand: chatdevops.StartChat",
     "onView:chat-sidebar.views"
   ],
   "main": "./extension.js",
@@ -21,7 +21,7 @@
 			"activitybar": [
 				{
 					"id": "chat-sidebar",
-					"title": "Chatdevops",
+					"title": "chatdevops",
 					"icon": "src/chat_small.svg"
 				}
 			]
@@ -31,24 +31,24 @@
 				{
 					"type": "webview",
 					"id": "chat-sidebar.view",
-					"name": "Chatdevops",
+					"name": "chatdevops",
 					"icon": "src/chat_small.svg",
-					"contextualTitle": "Chatdevops"
+					"contextualTitle": "chatdevops"
 				}
 			]
 		},
     "chatParticipants": [{
-      "id": "chatbotaidevops.Cat",
+      "id": "chatdevops.Cat",
       "name": "cat",
       "description": "Meow! What can I teach you?",
       "isSticky": true
     }] ,
     "commands": [{
-      "command": "chatbotaidevops.StartChat",
+      "command": "chatdevops.StartChat",
       "title": "StartChat"
       },
       {
-      "command": "chatbotaidevops.EndChat",
+      "command": "chatdevops.EndChat",
       "title": "EndChat"
       }
     ]
